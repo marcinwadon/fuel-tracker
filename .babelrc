@@ -4,5 +4,14 @@
     "development": {
       "plugins": ["transform-react-jsx-source"]
     }
-  }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "@fuel-lib": "./fuel-lib",
+        "@fuel-app": "./fuel-app"
+      }
+    }]
+  ]
 }
