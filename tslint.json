@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@evojam/tslint-rules/tslint.json"
+  ],
+  "rules": {
+    "variable-name": [true, "check-format", "allow-leading-underscore", "allow-trailing-underscore", "allow-pascal-case","ban-keywords"],
+    "no-expression-statement": false
+  }
+}
