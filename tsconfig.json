@@ -13,6 +13,10 @@
     "noEmitHelpers": true,
     "importHelpers": true,
     "strict": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "paths": {
+      "@fuel-app/*": ["./fuel-app/*"],
+      "@fuel-lib/*": ["./fuel-lib/*"]
+    }
   }
 }

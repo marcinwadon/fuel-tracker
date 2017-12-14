@@ -12,9 +12,9 @@ import {
   NavigationState,
 } from 'react-navigation'
 
-interface IProps {
-  readonly navigation: NavigationScreenProp<NavigationState, NavigationAction>
-}
+import { INavigationProps } from '@fuel-lib/navigation'
+
+interface IProps {}
 
 const styles = StyleSheet.create({
   container: {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
 })
 
-export class Dashboard extends React.Component<IProps> {
+export class Dashboard extends React.Component<IProps & INavigationProps> {
   public static readonly navigationOptions: () => NavigationScreenOptions = () => ({
     title: 'Dashboard',
   })

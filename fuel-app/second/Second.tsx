@@ -11,10 +11,6 @@ import {
   NavigationState,
 } from 'react-navigation'
 
-interface IProps {
-  readonly navigation: NavigationScreenProp<NavigationState, NavigationAction>
-}
-
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
@@ -24,7 +20,7 @@ const styles = StyleSheet.create({
   },
 })
 
-export class Second extends React.Component<IProps> {
+export class Second extends React.Component<{}> {
   public static readonly navigationOptions: () => NavigationScreenOptions = () => ({
     title: 'Second',
   })
