@@ -4,6 +4,7 @@
   ],
   "rules": {
     "variable-name": [true, "check-format", "allow-leading-underscore", "allow-trailing-underscore", "allow-pascal-case","ban-keywords"],
-    "no-expression-statement": false
+    "no-expression-statement": false,
+    "prefer-method-signature": false
   }
 }
