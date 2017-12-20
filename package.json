@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "expo": "^22.0.0",
-    "immutable": "^3.8.2",
+    "immutable": "4.0.0-rc.9",
     "monet": "0.9.0-alpha.4",
     "react": "16.0.0",
     "react-native": "0.49.3",
